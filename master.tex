@@ -1,0 +1,110 @@
+
+
+%%******************************************************************************
+%% CONFIGURATION
+%%******************************************************************************
+
+
+\documentclass[a4paper,11pt,oneside,openany,brazilian, version=last,draft=false,]{article}
+
+
+
+
+%%******************************************************************************
+%% DOCUMENT STYLE
+%%******************************************************************************
+
+
+\usepackage{graphicx}
+\usepackage{mybook}
+\usepackage{float}
+\usepackage{fancyhdr}
+\usepackage{pdfpages}
+\usepackage{pdflscape}
+\usepackage{geometry}
+
+\pdfcompresslevel = 9
+\oddsidemargin = 31pt
+\topmargin = 20pt
+\headheight = 12pt
+\headsep = 25pt
+\textheight = 592pt
+\textwidth = 390pt
+\marginparsep = 10pt
+\marginparwidth = 35pt
+\footskip = 30pt
+
+%%******************************************************************************
+%% MAIN BODY
+%%******************************************************************************
+
+\begin{document}
+
+%%==============================================================================
+%% FRONT MATTER
+%%==============================================================================
+
+%\frontmatter
+
+\include{00_frontpage}
+\include{00_header}
+
+
+
+%%==============================================================================
+%% SUMMARY
+%%==============================================================================
+
+%\tableofcontents
+
+
+%%==============================================================================
+%% LIST OF TABLES, FIGURES, AND LISTINGS
+%%==============================================================================
+
+%\listoffigures
+%\listoftables
+%
+%\lstlistoflistings
+
+
+%%==============================================================================
+%% MAIN MATTER
+%%==============================================================================
+
+%\mainmatter
+
+\tableofcontents
+\listoffigures
+\include{01_Purpose}
+\include{02_Materials}
+\include{03_Method}
+\include{04_Data}
+\include{05_Results}
+\include{06_Analysis}
+\include{07_Conclusion}
+\include{08_Figures}
+\include{09_References}
+%\include{Apendix II - Eletrônica}
+
+
+
+
+
+
+%%==============================================================================
+%% APPENDIX - Team
+%%==============================================================================
+
+%\appendix
+
+
+
+
+%%==============================================================================
+%% BACK MATTER - Bibliography and Signature
+%%==============================================================================
+
+%\backmatter
+
+\end{document}
