@@ -14,6 +14,8 @@ Usina foram:
   \item Cabos M12 com conectores submarinos e umbilical com saída de backup;
   \item Eletrônica embarcada à prova d'água composta por: tubo metálico, duas
   baterias, chave de ativação, placa eletrônica customizada e cabeamento;
+  \item Ferramentas da eletrônica: voltímetro;
+  \item Computador com sistema operacional Ubuntu e Modem Ethernet;
   \item Estrutura mecânica para acoplamento do sensor; 
   \item Ferramentas: chave de fenda e de boca 8mm;
 \end{itemize}
@@ -30,7 +32,8 @@ d'água. FIGURA
 O cabo umbilical da eletrônica embarcada apresenta 12 vias, onde duas são as
 saídas de sinais dos sensores indutivos. Essas saídas garantem a
 verificação dos sensores indutivos caso haja falha do dispositivo GPIO/Ethernet
-da placa eletrônica.
+da placa eletrônica. A ferramenta utilizada para essa verificação é o
+voltímetro.
 
 A eletrônica embarcada do teste em JIRAU é um protótipo simplificado da
 eletrônica final do projeto ROSA. Ela pode ser subdividida em um projeto
@@ -54,6 +57,9 @@ converte a saída de nível lógico TTL para Ethernet. Vale ressaltar que a
 conexão da placa ocorre com os conectores internos do tubo, estrutura mecânica, e não diretamente com o cabo do sensor indutivo. A lógica da montagem é: sensor indutivo - Cabo
 M12 - Emenda cabo externo do tubo - Conector tubo - Cabo interno do tubo -
 Conector placa - Placa. FIGURA
+
+O computador com sistema operacional Ubuntu recebe os dados via Ethernet pelo
+Modem. O sistema para obtenção dos dados foi desenvolvido em ROCK.
 
 A potência da eletrônica embarcada é fornecida por duas baterias $12V$, $7AH$ em
 série, o que garante um total de $24V$. Elas são alojadas internamente ao tubo,
