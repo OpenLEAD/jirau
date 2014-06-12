@@ -1,0 +1,62 @@
+%%******************************************************************************
+%%
+%% header.tex
+%%
+%%******************************************************************************
+%%
+%% Title......: ROSA - Stoplog Inspection
+%%
+%% Author.....: GSCAR-DFKI
+%%
+%% Started....: Nov 2013
+%%
+%% Emails.....: renan028@gmail.com
+%%
+%% Address....: Universidade Federal do Rio de Janeiro
+%%              Caixa Postal 68.504, CEP: 21.945-970
+%%              Rio de Janeiro, RJ - Brasil.
+%%
+%%******************************************************************************
+
+
+%%******************************************************************************
+%% PAGE HEADERS AND FOOTERS
+%%******************************************************************************
+
+\pagestyle{fancy}
+
+%% Set header text.
+\def\headtextl{RG-v01}
+\def\headtextc{}
+\def\headtextr{\today}
+
+%%==============================================================================
+%% HEADLETTER LOGO(S)
+%%==============================================================================
+
+%\addheadlogo{L}{2.0cm}{coppetec50}
+%\addheadlogo{L}{1.0cm}{lead}
+%\addheadlogo{C}{1.0cm}{aneel}
+%\addheadlogo{R}{1.0cm}{esbr}
+
+
+
+%% Set foot text.
+\def\foottextl{}
+\def\foottextc{\thepage}
+\def\foottextr{}
+
+%% Configure header and footer rules.
+\configheadrule{1.5pt}{shadgray}
+\configfootrule{0.0pt}{shadgray}
+
+%% Add header and footer text.
+\addhead{black}{\headtextl}{\headtextc}{\headtextr}
+\addfoot{black}{\foottextl}{\foottextc}{\foottextr}
+
+%% Configure header and footer rules/text for the plain page style.
+\configplainstyle{%
+  \configfootrule{0.0pt}{shadgray}%
+  \addfoot{black}{\foottextl}{\foottextc}{\foottextr}%
+}
+
