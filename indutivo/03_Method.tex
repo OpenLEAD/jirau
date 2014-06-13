@@ -7,7 +7,7 @@ Describe the steps you completed during your investigation. This is your procedu
 
 \section{Métodos}
 Esta seção está subdividida em: Logística de materiais e dispositivos,
-planejamento do experimento, montagem, execução e coleta de dados com análise,
+planejamento do experimento, montagem, execução e coleta de dados,
 desmontagem e fechamento.
 
 \subsection{Logística de materiais e dispositivos}
@@ -27,16 +27,24 @@ profundímetro da Velki e sensor inercial (IMU), dos projetos LUMA e DORIS. Este
 Devido ao teste extra, houve a necessidade de um novo projeto para a eletrônica
 embarcada à prova d'água, cabos com emendas submarinas e montagem da estrutura mecânica, além da readaptação da placa eletrônica para os novos sensores com acréscimos de novos
 CIs e uma grande reestruturação do software. A compra de novos componentes,
-cases e cabos foram no centro da cidade, Rua República do Líbano, pelo método de
-reembolso e com transporte particular.
+cases e cabos foram no centro da cidade do Rio de Janeiro, Rua República do
+Líbano, pelo método de reembolso e com transporte particular.
 
-O umbilical proposto para o novo teste da eletrônica é composto por 12 vias com
-40m de comprimento, sem carretel. Os outros diversos cabos da eletrônica, fonte
-e baterias exigiram a aquisição de um case $65x65x65cm$ com rodas, totalizando um
-peso de $70kg$. Não foi possível realizar a organização interna do case, já que
-o tempo da última semana foi reservado, em sua maior parte, para a
-reestruturação eletrônica e de software a fim de garantir o último teste e a
-obtenção de dados. 
+O umbilical proposto para o novo teste da eletrônica é composto por um cabo
+emborrachado de 12 vias com 40m de comprimento e um cabo Ethernet com 8 vias,
+sem carretel.
+Os outros diversos cabos da eletrônica, fontes, baterias, voltímetro,
+osciloscópio, dentre outros equipamentos, exigiram a aquisição de um case
+$65x65x65cm$ com rodas, totalizando um peso de $70kg$. Não foi possível realizar
+a organização interna do case, já que o tempo da última semana foi reservado, em
+sua maior parte, para a reestruturação eda letrônica e de software a fim de
+garantir o último teste e a obtenção de dados.
+
+O tubo à prova d'água que contém a eletrônica embarcada com profundímetro e
+IMU foi enrolada em espuma, presa com abraçadeiras de plástico. No aeroporto,
+foi necessário envolvê-lo com proteção adicional. A estrutura metálica do sensor
+indutivo foi revestida com plástico bolha e também envolvido com proteção
+adicional.
 
 O transporte dos cases foram realizados do laboratório à Usina nas
 seguintes etapas:
@@ -47,7 +55,44 @@ seguintes etapas:
   \item Nova Mutum Paraná-Usina: carro alugado Hilux;
 \end{itemize} 
 
+Os três sensores indutivos foram transportados em suas respectivas caixas, em
+mochila particular durante todo o trajeto da viagem.
+
+Podemos destacar algumas dificuldades de logística:
+\begin{itemize}
+  \item Transporte do case de $70 Kg$: apesar de apresentar rodinhas, o
+  constante deslocamento do case entre carros era complicado e consumia tempo.
+  \item Não houve organização do pelican-case e do case KGB $70 Kg$. A
+  necessidade de uma ferramenta ou equipamento tomava tempo pela busca e poderia
+  até resultar na desmontagem do case para se ter acesso a um equipamento que
+  estivesse no fundo.
+  \item Para o tubo, não foi projetado um case personalizado para transporte, o
+  que resultou em uma proteção improvisada com espumas, e não facilitou a sua locomoção. 
+\end{itemize} 
  
+\subsection{Planejamento}
+A realização de um teste em campo exige o planejamento de dispositivos
+necessários para sua execução levando em consideração voltagem disponível na
+USINA, equipamentos que podem ser fornecidos pela USINA, operários disponíveis
+para realizar a operação, tempo de uso da viga e do ambiente.
+
+Os dispositivos e materiais para a realização do teste do sensor indutivo podem
+ser observados no capítulo Materiais e foram todos disponibilizados pelo
+laboratório LEAD, com exceção do Modem Ethernet. A eletrônica embarcada foi
+alimentada por duas baterias, assim como os sensores, os notebooks possuem
+baterias próprias, portanto a única alimentação externa necessária é do Modem
+220VAC, disponível na USINA.
+
+As vigas foram utilizadas em todos os testes, portanto um operador foi
+requisitado para posicionar a viga quando necessária, com dois ajudantes que
+verificavam a inclinação da viga.
+
+O tempo do teste foi dividido em tempo de montagem e coleta de dados. Cerca de
+quatro horas foram reservados para a montagem e três para a coleta dos dados.
+O operador só é necessário durante a coleta de dados e na primeira fase de
+montagem para posicionar a viga.
+
+\subsection{Montagem}
 
 \label{metodos}
 
