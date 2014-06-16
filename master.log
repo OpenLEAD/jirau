@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.6.10)  16 JUN 2014 11:01
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.6.10)  16 JUN 2014 15:15
 entering extended mode
  Source specials enabled.
  %&-line parsing enabled.
@@ -828,8 +828,9 @@ Package: geometry 2008/12/21 v4.2 Page Geometry
 LaTeX Warning: Unused global option(s):
     [openany,version=last].
 
-(./master.aux (./00_frontpage.aux) (./00_header.aux) (./indutivo/01_Purpose.aux
-) (./indutivo/02_Materials.aux) (./indutivo/03_Method.aux)
+(./master.aux (./00_frontpage.aux) (./00_header.aux)
+(./01_GeneralConsiderations.aux) (./indutivo/01_Purpose.aux)
+(./indutivo/02_Materials.aux) (./indutivo/03_Method.aux)
 (./indutivo/04_Data.aux) (./indutivo/05_Results.aux)
 (./indutivo/06_Analysis.aux) (./indutivo/07_Conclusion.aux)
 (./indutivo/08_Figures.aux) (./indutivo/09_References.aux)
@@ -968,7 +969,7 @@ driver: pdftex
 
 (./00_frontpage.tex
 Package hyperref Info: Option `pageanchor' set `false' on input line 38.
- <figs/logo/lead-logo.pdf, id=108, 369.38pt x 141.52875pt>
+ <figs/logo/lead-logo.pdf, id=120, 369.38pt x 141.52875pt>
 File: figs/logo/lead-logo.pdf Graphic file (type pdf)
 
 <use figs/logo/lead-logo.pdf>
@@ -1012,11 +1013,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 42--50
 
  []
 
-<figs/logo/esbr-logo.png, id=109, 2135.98pt x 868.24374pt>
+<figs/logo/esbr-logo.png, id=121, 2135.98pt x 868.24374pt>
 File: figs/logo/esbr-logo.png Graphic file (type png)
 
 <use figs/logo/esbr-logo.png>
-<figs/logo/aneel-logo.pdf, id=111, 405.91649pt x 155.6214pt>
+<figs/logo/aneel-logo.pdf, id=123, 405.91649pt x 155.6214pt>
 File: figs/logo/aneel-logo.pdf Graphic file (type pdf)
 
 <use figs/logo/aneel-logo.pdf>
@@ -1040,7 +1041,12 @@ Overfull \hbox (57.17pt too wide) in paragraph at lines 68--88
  <./figs/logo/esbr-logo.png> <./figs/logo/aneel-logo.pdf>])
 \openout2 = `00_header.aux'.
 
- (./00_header.tex) (./master.toc)
+ (./00_header.tex) (./master.toc [1
+
+
+
+
+])
 \tf@toc=\write4
 \openout4 = `master.toc'.
 
@@ -1048,24 +1054,68 @@ Overfull \hbox (57.17pt too wide) in paragraph at lines 68--88
 \tf@lof=\write5
 \openout5 = `master.lof'.
 
- [1
+ [2]
+\openout2 = `01_GeneralConsiderations.aux'.
+
+ (./01_GeneralConsiderations.tex
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 6.
+ [3
+
+]
+Overfull \hbox (11.26279pt too wide) in paragraph at lines 37--42
+[][]\OT1/ppl/m/n/10.95 O tubo []a prova d'[]agua que cont[]em a eletr[]onica em
+-bar-cada com pro-fund[]^^Pmetro
+ []
 
 
+Overfull \hbox (2.74384pt too wide) in paragraph at lines 43--45
+[][]\OT1/ppl/m/n/10.95 O trans-porte dos cases foram re-al-iza-dos do lab-o-rat
+[]orio []a Usina nas seguintes
+ []
+
+[4]
+Overfull \hbox (12.07855pt too wide) in paragraph at lines 78--82
+[]\OT1/ppl/m/n/10.95 A realiza[][]ao de um teste em campo ex-ige o plane-ja-men
+to de dis-pos-i-tivos necess[]arios
+ []
 
 
-] [2]
+Overfull \hbox (8.83835pt too wide) in paragraph at lines 78--82
+\OT1/ppl/m/n/10.95 para sua execu[][]ao levando em considra[][]ao volt-agem dis
+pon[]^^Pvel na USINA, equipa-
+ []
+
+
+Overfull \hbox (8.27965pt too wide) in paragraph at lines 83--92
+\OT1/ppl/m/n/10.95 checagem pos-si-bilita uma otimiza[][]ao do tempo de execu[]
+[]ao de cada teste e tamb[]em
+ []
+
+
+Overfull \hbox (2.10419pt too wide) in paragraph at lines 93--102
+\OT1/ppl/m/n/10.95 emer-gen-cial, deve ser con-sid-er-ado e lev-ado a campo. Co
+mo ex-em-plo []e a utiliza[][]ao
+ []
+
+[5]
+Overfull \hbox (7.19556pt too wide) in paragraph at lines 115--118
+[]\OT1/ppl/m/n/10.95 O plane-ja-mento da mon-tagem dos equipa-men-tos em campo 
+[]e de suma im-port[]ancia
+ []
+
+) [6] [7
+
+]
 \openout2 = `indutivo/01_Purpose.aux'.
 
  (./indutivo/01_Purpose.tex
-LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 8.
-
 Overfull \hbox (9.26544pt too wide) in paragraph at lines 14--16
 [][]\OT1/ppl/m/n/10.95 Observar poss[]^^Pveis falso-positivos do sen-sor de-v-i
 do ao acopla-mento met[]alico; 
  []
 
-) [3
+) [8
 
 ]
 \openout2 = `indutivo/02_Materials.aux'.
@@ -1076,7 +1126,7 @@ Overfull \hbox (1.79732pt too wide) in paragraph at lines 27--31
 am ao tubo da eletr[]onica
  []
 
-[4
+[9
 
 
 ]
@@ -1085,89 +1135,77 @@ Overfull \hbox (18.29837pt too wide) in paragraph at lines 42--47
 [][]ao Ant[]artida. FIGURA 
  []
 
-[5]) [6]
+[10]) [11]
 \openout2 = `indutivo/03_Method.aux'.
 
- (./indutivo/03_Method.tex [7
-
-
-]
-Overfull \hbox (11.26279pt too wide) in paragraph at lines 43--48
-[][]\OT1/ppl/m/n/10.95 O tubo []a prova d'[]agua que cont[]em a eletr[]onica em
--bar-cada com pro-fund[]^^Pmetro
- []
-
-
-Overfull \hbox (2.74384pt too wide) in paragraph at lines 49--51
-[][]\OT1/ppl/m/n/10.95 O trans-porte dos cases foram re-al-iza-dos do lab-o-rat
-[]orio []a Usina nas seguintes
- []
-
-[8]
-Overfull \hbox (12.07855pt too wide) in paragraph at lines 74--78
+ (./indutivo/03_Method.tex
+Overfull \hbox (12.07855pt too wide) in paragraph at lines 14--18
 []\OT1/ppl/m/n/10.95 A realiza[][]ao de um teste em campo ex-ige o plane-ja-men
 to de dis-pos-i-tivos necess[]arios
  []
 
 
-Overfull \hbox (14.08331pt too wide) in paragraph at lines 74--78
+Overfull \hbox (14.08331pt too wide) in paragraph at lines 14--18
 \OT1/ppl/m/n/10.95 para sua execu[][]ao levando em considera[][]ao volt-agem di
 spon[]^^Pvel na USINA, equipa-
  []
 
-[9]) [10]
+[12
+
+
+]) [13]
 \openout2 = `indutivo/04_Data.aux'.
 
- (./indutivo/04_Data.tex) [11
+ (./indutivo/04_Data.tex) [14
 
 
 ]
 \openout2 = `indutivo/05_Results.aux'.
 
- (./indutivo/05_Results.tex) [12
+ (./indutivo/05_Results.tex) [15
 
 
 ]
 \openout2 = `indutivo/06_Analysis.aux'.
 
 
-(./indutivo/06_Analysis.tex) [13
+(./indutivo/06_Analysis.tex) [16
 
 
 ]
 \openout2 = `indutivo/07_Conclusion.aux'.
 
- (./indutivo/07_Conclusion.tex) [14
+ (./indutivo/07_Conclusion.tex) [17
 
 
 ]
 \openout2 = `indutivo/08_Figures.aux'.
 
 
-(./indutivo/08_Figures.tex) [15
+(./indutivo/08_Figures.tex) [18
 
 
 ]
 \openout2 = `indutivo/09_References.aux'.
 
- (./indutivo/09_References.tex) [16
+ (./indutivo/09_References.tex) [19
 
 
-] [17
+] [20
 
 ]
 \openout2 = `sonar/01_Purpose.aux'.
 
 
-(./sonar/01_Purpose.tex [18
+(./sonar/01_Purpose.tex [21
 
 ])
-Overfull \hbox (0.71318pt too wide) in paragraph at lines 44--92
+Overfull \hbox (0.71318pt too wide) in paragraph at lines 44--94
 \OT1/ppl/m/n/10.95 sen-volvi-mento de um sis-tema de reconstru[][]ao 3D do fund
 o do rio para a opera[][]ao
  []
 
-[19]
+[22]
 \openout2 = `sonar/02_Materials.aux'.
 
  (./sonar/02_Materials.tex
@@ -1176,7 +1214,7 @@ Overfull \hbox (1.79732pt too wide) in paragraph at lines 27--31
 am ao tubo da eletr[]onica
  []
 
-[20
+[23
 
 
 ]
@@ -1185,10 +1223,10 @@ Overfull \hbox (18.29837pt too wide) in paragraph at lines 42--47
 [][]ao Ant[]artida. FIGURA 
  []
 
-[21]) [22]
+[24]) [25]
 \openout2 = `sonar/03_Method.aux'.
 
- (./sonar/03_Method.tex [23
+ (./sonar/03_Method.tex [26
 
 
 ]
@@ -1197,48 +1235,48 @@ Overfull \hbox (2.74384pt too wide) in paragraph at lines 41--43
 []orio []a Usina nas seguintes
  []
 
-) [24]
+) [27]
 \openout2 = `sonar/04_Data.aux'.
 
- (./sonar/04_Data.tex) [25
+ (./sonar/04_Data.tex) [28
 
 
 ]
 \openout2 = `sonar/05_Results.aux'.
 
- (./sonar/05_Results.tex) [26
+ (./sonar/05_Results.tex) [29
 
 
 ]
 \openout2 = `sonar/06_Analysis.aux'.
 
 
-(./sonar/06_Analysis.tex) [27
+(./sonar/06_Analysis.tex) [30
 
 
 ]
 \openout2 = `sonar/07_Conclusion.aux'.
 
- (./sonar/07_Conclusion.tex) [28
+ (./sonar/07_Conclusion.tex) [31
 
 
 ]
 \openout2 = `sonar/08_Figures.aux'.
 
 
-(./sonar/08_Figures.tex) [29
+(./sonar/08_Figures.tex) [32
 
 
 ]
 \openout2 = `sonar/09_References.aux'.
 
- (./sonar/09_References.tex) [30
+ (./sonar/09_References.tex) [33
 
 
 ] (./master.aux
-(./00_frontpage.aux) (./00_header.aux) (./indutivo/01_Purpose.aux)
-(./indutivo/02_Materials.aux) (./indutivo/03_Method.aux)
-(./indutivo/04_Data.aux) (./indutivo/05_Results.aux)
+(./00_frontpage.aux) (./00_header.aux) (./01_GeneralConsiderations.aux)
+(./indutivo/01_Purpose.aux) (./indutivo/02_Materials.aux)
+(./indutivo/03_Method.aux) (./indutivo/04_Data.aux) (./indutivo/05_Results.aux)
 (./indutivo/06_Analysis.aux) (./indutivo/07_Conclusion.aux)
 (./indutivo/08_Figures.aux) (./indutivo/09_References.aux)
 (./sonar/01_Purpose.aux) (./sonar/02_Materials.aux) (./sonar/03_Method.aux)
@@ -1250,20 +1288,20 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 9709 strings out of 495061
- 136830 string characters out of 1182621
- 231787 words of memory out of 3000000
- 12490 multiletter control sequences out of 15000+50000
+ 9725 strings out of 495061
+ 137141 string characters out of 1182621
+ 231176 words of memory out of 3000000
+ 12496 multiletter control sequences out of 15000+50000
  18215 words of font info for 52 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 45i,12n,45p,535b,379s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 45i,12n,45p,535b,441s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texmf-texlive/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-texli
 ve/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/ty
 pe1/urw/palatino/uplb8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/palatino/
 uplr8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on master.pdf (31 pages, 360766 bytes).
+Output written on master.pdf (34 pages, 368530 bytes).
 PDF statistics:
- 280 PDF objects out of 1000 (max. 8388607)
- 29 named destinations out of 1000 (max. 500000)
- 228 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 305 PDF objects out of 1000 (max. 8388607)
+ 32 named destinations out of 1000 (max. 500000)
+ 252 words of extra memory for PDF output out of 10000 (max. 10000000)
 
