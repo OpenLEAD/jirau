@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.6.10)  16 JUN 2014 15:15
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.6.10)  16 JUN 2014 17:16
 entering extended mode
  Source specials enabled.
  %&-line parsing enabled.
@@ -969,7 +969,7 @@ driver: pdftex
 
 (./00_frontpage.tex
 Package hyperref Info: Option `pageanchor' set `false' on input line 38.
- <figs/logo/lead-logo.pdf, id=120, 369.38pt x 141.52875pt>
+ <figs/logo/lead-logo.pdf, id=116, 369.38pt x 141.52875pt>
 File: figs/logo/lead-logo.pdf Graphic file (type pdf)
 
 <use figs/logo/lead-logo.pdf>
@@ -1013,11 +1013,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 42--50
 
  []
 
-<figs/logo/esbr-logo.png, id=121, 2135.98pt x 868.24374pt>
+<figs/logo/esbr-logo.png, id=117, 2135.98pt x 868.24374pt>
 File: figs/logo/esbr-logo.png Graphic file (type png)
 
 <use figs/logo/esbr-logo.png>
-<figs/logo/aneel-logo.pdf, id=123, 405.91649pt x 155.6214pt>
+<figs/logo/aneel-logo.pdf, id=119, 405.91649pt x 155.6214pt>
 File: figs/logo/aneel-logo.pdf Graphic file (type pdf)
 
 <use figs/logo/aneel-logo.pdf>
@@ -1138,25 +1138,14 @@ Overfull \hbox (18.29837pt too wide) in paragraph at lines 42--47
 [10]) [11]
 \openout2 = `indutivo/03_Method.aux'.
 
- (./indutivo/03_Method.tex
-Overfull \hbox (12.07855pt too wide) in paragraph at lines 14--18
-[]\OT1/ppl/m/n/10.95 A realiza[][]ao de um teste em campo ex-ige o plane-ja-men
-to de dis-pos-i-tivos necess[]arios
- []
-
-
-Overfull \hbox (14.08331pt too wide) in paragraph at lines 14--18
-\OT1/ppl/m/n/10.95 para sua execu[][]ao levando em considera[][]ao volt-agem di
-spon[]^^Pvel na USINA, equipa-
- []
-
-[12
+ (./indutivo/03_Method.tex [12
 
 
 ]) [13]
 \openout2 = `indutivo/04_Data.aux'.
 
- (./indutivo/04_Data.tex) [14
+ (./indutivo/04_Data.tex)
+[14
 
 
 ]
@@ -1168,27 +1157,27 @@ spon[]^^Pvel na USINA, equipa-
 ]
 \openout2 = `indutivo/06_Analysis.aux'.
 
-
-(./indutivo/06_Analysis.tex) [16
+ (./indutivo/06_Analysis.tex) [16
 
 
 ]
 \openout2 = `indutivo/07_Conclusion.aux'.
 
- (./indutivo/07_Conclusion.tex) [17
+
+(./indutivo/07_Conclusion.tex) [17
 
 
 ]
 \openout2 = `indutivo/08_Figures.aux'.
 
-
-(./indutivo/08_Figures.tex) [18
+ (./indutivo/08_Figures.tex) [18
 
 
 ]
 \openout2 = `indutivo/09_References.aux'.
 
- (./indutivo/09_References.tex) [19
+
+(./indutivo/09_References.tex) [19
 
 
 ] [20
@@ -1196,8 +1185,7 @@ spon[]^^Pvel na USINA, equipa-
 ]
 \openout2 = `sonar/01_Purpose.aux'.
 
-
-(./sonar/01_Purpose.tex [21
+ (./sonar/01_Purpose.tex [21
 
 ])
 Overfull \hbox (0.71318pt too wide) in paragraph at lines 44--94
@@ -1226,51 +1214,55 @@ Overfull \hbox (18.29837pt too wide) in paragraph at lines 42--47
 [24]) [25]
 \openout2 = `sonar/03_Method.aux'.
 
- (./sonar/03_Method.tex [26
+ (./sonar/03_Method.tex
+
+LaTeX Warning: Reference `placa_viga' on page 26 undefined on input line 13.
+
+
+LaTeX Warning: Reference `fixaca_sonar' on page 26 undefined on input line 15.
+
+
+LaTeX Warning: Reference `close_sonar' on page 26 undefined on input line 30.
+
+) [26
 
 
 ]
-Overfull \hbox (2.74384pt too wide) in paragraph at lines 41--43
-[][]\OT1/ppl/m/n/10.95 O trans-porte dos cases foram re-al-iza-dos do lab-o-rat
-[]orio []a Usina nas seguintes
- []
-
-) [27]
 \openout2 = `sonar/04_Data.aux'.
 
- (./sonar/04_Data.tex) [28
+ (./sonar/04_Data.tex) [27
 
 
 ]
 \openout2 = `sonar/05_Results.aux'.
 
- (./sonar/05_Results.tex) [29
+ (./sonar/05_Results.tex) [28
 
 
 ]
 \openout2 = `sonar/06_Analysis.aux'.
 
 
-(./sonar/06_Analysis.tex) [30
+(./sonar/06_Analysis.tex) [29
 
 
 ]
 \openout2 = `sonar/07_Conclusion.aux'.
 
- (./sonar/07_Conclusion.tex) [31
+ (./sonar/07_Conclusion.tex) [30
 
 
 ]
 \openout2 = `sonar/08_Figures.aux'.
 
 
-(./sonar/08_Figures.tex) [32
+(./sonar/08_Figures.tex) [31
 
 
 ]
 \openout2 = `sonar/09_References.aux'.
 
- (./sonar/09_References.tex) [33
+ (./sonar/09_References.tex) [32
 
 
 ] (./master.aux
@@ -1284,14 +1276,17 @@ Overfull \hbox (2.74384pt too wide) in paragraph at lines 41--43
 (./sonar/07_Conclusion.aux) (./sonar/08_Figures.aux) (./sonar/09_References.aux
 ))
 
+LaTeX Warning: There were undefined references.
+
+
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 9725 strings out of 495061
- 137141 string characters out of 1182621
- 231176 words of memory out of 3000000
- 12496 multiletter control sequences out of 15000+50000
+ 9726 strings out of 495061
+ 137140 string characters out of 1182621
+ 231138 words of memory out of 3000000
+ 12498 multiletter control sequences out of 15000+50000
  18215 words of font info for 52 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  45i,12n,45p,535b,441s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1299,9 +1294,9 @@ Here is how much of TeX's memory you used:
 ve/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/ty
 pe1/urw/palatino/uplb8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/palatino/
 uplr8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on master.pdf (34 pages, 368530 bytes).
+Output written on master.pdf (33 pages, 366174 bytes).
 PDF statistics:
- 305 PDF objects out of 1000 (max. 8388607)
- 32 named destinations out of 1000 (max. 500000)
- 252 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 297 PDF objects out of 1000 (max. 8388607)
+ 31 named destinations out of 1000 (max. 500000)
+ 244 words of extra memory for PDF output out of 10000 (max. 10000000)
 
