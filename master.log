@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.6.10)  13 JUN 2014 17:11
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.6.10)  16 JUN 2014 11:01
 entering extended mode
  Source specials enabled.
  %&-line parsing enabled.
@@ -833,11 +833,7 @@ LaTeX Warning: Unused global option(s):
 (./indutivo/04_Data.aux) (./indutivo/05_Results.aux)
 (./indutivo/06_Analysis.aux) (./indutivo/07_Conclusion.aux)
 (./indutivo/08_Figures.aux) (./indutivo/09_References.aux)
-(./sonar/01_Purpose.aux
-
-LaTeX Warning: Label `proposito' multiply defined.
-
-) (./sonar/02_Materials.aux
+(./sonar/01_Purpose.aux) (./sonar/02_Materials.aux
 
 LaTeX Warning: Label `materials' multiply defined.
 
@@ -1163,15 +1159,15 @@ spon[]^^Pvel na USINA, equipa-
 \openout2 = `sonar/01_Purpose.aux'.
 
 
-(./sonar/01_Purpose.tex
-Overfull \hbox (9.26544pt too wide) in paragraph at lines 14--16
-[][]\OT1/ppl/m/n/10.95 Observar poss[]^^Pveis falso-positivos do sen-sor de-v-i
-do ao acopla-mento met[]alico; 
+(./sonar/01_Purpose.tex [18
+
+])
+Overfull \hbox (0.71318pt too wide) in paragraph at lines 44--92
+\OT1/ppl/m/n/10.95 sen-volvi-mento de um sis-tema de reconstru[][]ao 3D do fund
+o do rio para a opera[][]ao
  []
 
-) [18
-
-]
+[19]
 \openout2 = `sonar/02_Materials.aux'.
 
  (./sonar/02_Materials.tex
@@ -1180,7 +1176,7 @@ Overfull \hbox (1.79732pt too wide) in paragraph at lines 27--31
 am ao tubo da eletr[]onica
  []
 
-[19
+[20
 
 
 ]
@@ -1189,10 +1185,10 @@ Overfull \hbox (18.29837pt too wide) in paragraph at lines 42--47
 [][]ao Ant[]artida. FIGURA 
  []
 
-[20]) [21]
+[21]) [22]
 \openout2 = `sonar/03_Method.aux'.
 
- (./sonar/03_Method.tex [22
+ (./sonar/03_Method.tex [23
 
 
 ]
@@ -1201,42 +1197,42 @@ Overfull \hbox (2.74384pt too wide) in paragraph at lines 41--43
 []orio []a Usina nas seguintes
  []
 
-) [23]
+) [24]
 \openout2 = `sonar/04_Data.aux'.
 
- (./sonar/04_Data.tex) [24
+ (./sonar/04_Data.tex) [25
 
 
 ]
 \openout2 = `sonar/05_Results.aux'.
 
- (./sonar/05_Results.tex) [25
+ (./sonar/05_Results.tex) [26
 
 
 ]
 \openout2 = `sonar/06_Analysis.aux'.
 
 
-(./sonar/06_Analysis.tex) [26
+(./sonar/06_Analysis.tex) [27
 
 
 ]
 \openout2 = `sonar/07_Conclusion.aux'.
 
- (./sonar/07_Conclusion.tex) [27
+ (./sonar/07_Conclusion.tex) [28
 
 
 ]
 \openout2 = `sonar/08_Figures.aux'.
 
 
-(./sonar/08_Figures.tex) [28
+(./sonar/08_Figures.tex) [29
 
 
 ]
 \openout2 = `sonar/09_References.aux'.
 
- (./sonar/09_References.tex) [29
+ (./sonar/09_References.tex) [30
 
 
 ] (./master.aux
@@ -1254,53 +1250,20 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 9719 strings out of 495061
- 136962 string characters out of 1182621
- 230746 words of memory out of 3000000
- 12489 multiletter control sequences out of 15000+50000
+ 9709 strings out of 495061
+ 136830 string characters out of 1182621
+ 231787 words of memory out of 3000000
+ 12490 multiletter control sequences out of 15000+50000
  18215 words of font info for 52 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  45i,12n,45p,535b,379s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{subsection.3.9} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.8} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.7} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.6} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.5} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.4} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.3.3.1} has been referenced but does n
-ot exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.3} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.2} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.1} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.3} has been referenced but does not exist, 
-replaced by a fixed one
-
-{/usr/share/texmf-texlive/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-texlive
-/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type
-1/urw/palatino/uplb8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/palatino/up
-lr8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on master.pdf (30 pages, 360463 bytes).
+{/usr/share/texmf-texlive/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-texli
+ve/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/ty
+pe1/urw/palatino/uplb8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/palatino/
+uplr8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on master.pdf (31 pages, 360766 bytes).
 PDF statistics:
- 291 PDF objects out of 1000 (max. 8388607)
- 40 named destinations out of 1000 (max. 500000)
+ 280 PDF objects out of 1000 (max. 8388607)
+ 29 named destinations out of 1000 (max. 500000)
  228 words of extra memory for PDF output out of 10000 (max. 10000000)
 
