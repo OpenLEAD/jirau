@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.6.10)  16 JUN 2014 11:01
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.6.10)  16 JUN 2014 17:19
 entering extended mode
  Source specials enabled.
  %&-line parsing enabled.
@@ -1171,16 +1171,21 @@ o do rio para a opera[][]ao
 \openout2 = `sonar/02_Materials.aux'.
 
  (./sonar/02_Materials.tex
-Overfull \hbox (1.79732pt too wide) in paragraph at lines 27--31
-\OT1/ppl/m/n/10.95 Pepperl-Fuchs, foram es-ten-di-dos com ca-bos que se conec-t
-am ao tubo da eletr[]onica
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 5.21004pt on input line 19.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 5.21004pt on input line 19.
+
+Overfull \hbox (3.64871pt too wide) in paragraph at lines 33--35
+[][]\OT1/ppl/m/n/10.95 Estrutura mec[]anica biar-tic-u-lada para fixa[][]ao e d
+i-re-ciona-mento do sonar
  []
 
 [20
 
 
 ]
-Overfull \hbox (18.29837pt too wide) in paragraph at lines 42--47
+Overfull \hbox (18.29837pt too wide) in paragraph at lines 60--65
 \OT1/ppl/m/n/10.95 adapta[][]ao do antigo tubo do pro-jeto LUMA, ROV com expedi
 [][]ao Ant[]artida. FIGURA 
  []
@@ -1250,20 +1255,21 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 9709 strings out of 495061
- 136830 string characters out of 1182621
+ 9718 strings out of 495061
+ 136947 string characters out of 1182621
  231787 words of memory out of 3000000
- 12490 multiletter control sequences out of 15000+50000
- 18215 words of font info for 52 fonts, out of 3000000 for 9000
+ 12498 multiletter control sequences out of 15000+50000
+ 20922 words of font info for 60 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  45i,12n,45p,535b,379s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texmf-texlive/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-texli
 ve/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/ty
-pe1/urw/palatino/uplb8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/palatino/
-uplr8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on master.pdf (31 pages, 360766 bytes).
+pe1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf-texlive/fonts/type1/ur
+w/palatino/uplb8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/palatino/uplr8a
+.pfb></usr/share/texmf-texlive/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on master.pdf (31 pages, 369708 bytes).
 PDF statistics:
- 280 PDF objects out of 1000 (max. 8388607)
+ 284 PDF objects out of 1000 (max. 8388607)
  29 named destinations out of 1000 (max. 500000)
  228 words of extra memory for PDF output out of 10000 (max. 10000000)
 
