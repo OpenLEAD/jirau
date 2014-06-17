@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.6.10)  16 JUN 2014 17:16
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.6.10)  17 JUN 2014 10:23
 entering extended mode
  Source specials enabled.
  %&-line parsing enabled.
@@ -1222,7 +1222,7 @@ LaTeX Warning: Reference `placa_viga' on page 26 undefined on input line 13.
 LaTeX Warning: Reference `fixaca_sonar' on page 26 undefined on input line 15.
 
 
-LaTeX Warning: Reference `close_sonar' on page 26 undefined on input line 30.
+LaTeX Warning: Reference `close_sonar' on page 26 undefined on input line 31.
 
 ) [26
 
@@ -1294,7 +1294,7 @@ Here is how much of TeX's memory you used:
 ve/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/ty
 pe1/urw/palatino/uplb8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/palatino/
 uplr8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on master.pdf (33 pages, 366174 bytes).
+Output written on master.pdf (33 pages, 366545 bytes).
 PDF statistics:
  297 PDF objects out of 1000 (max. 8388607)
  31 named destinations out of 1000 (max. 500000)
