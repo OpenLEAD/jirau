@@ -1,7 +1,7 @@
 
 %%******************************************************************************
 %% SECTION - Materials 
-List everything needed to complete your experiment.
+%List everything needed to complete your experiment.
 %%******************************************************************************
 
 
@@ -20,14 +20,14 @@ Usina foram:
   \item Ferramentas: chave de fenda e de boca 8mm;
 \end{itemize}
 Os sensores indutivos NBB20-L2-E2-V1 adquiridos na Pepperl-Fuchs foram
-previamente testados em laboratório nas condições que se esperava encontrar em JIRAU (ver relatório XX): objetos
-metálicos em torno do sensor, sensor dentro e fora da água, distância de 20 a
-30mm do objeto a ser detectado. FIGURA
+previamente testados em laboratório nas condições que se esperava encontrar em
+JIRAU (ver relatório Testes de Laboratório, seção do sensor indutivo): objetos
+metálicos em torno do sensor, sensor dentro e fora da água, distância de 20 a 30mm do objeto a ser detectado.
 
 Os cabos M12 de 4 vias e 5m de comprimento, também adquiridos na Pepperl-Fuchs,
-foram esten\-didos com cabos que se conectam ao tubo da eletrô\-nica embarcada.
+foram estendidos com cabos que se conectam ao tubo da eletrô\-nica embarcada.
 As extensões são do tipo submarina, capaz de resistir a altas pressões embaixo
-d'água. FIGURA
+d'água. 
 
 O cabo umbilical da eletrônica embarcada apresenta 12 vias, onde duas são as
 saídas de sinais dos sensores indutivos. Essas saídas garantem a
@@ -36,14 +36,21 @@ da placa eletrônica. A ferramenta utilizada para essa verificação é o
 voltímetro.
 
 A eletrônica embarcada do teste em JIRAU é um protótipo simplificado da
-eletrônica final do projeto ROSA. Ela pode ser subdividida em um projeto
+eletrônica final do projeto ROSA. Ela pode ser subdividida em projeto
 mecânico, placa eletrônica e potência. 
 
-A estrutura mecânica da eletrônica embarcada deve atender seguintes requisitos
-de projeto: imersível 100m em água, resistente à vibração, resistente a choque
+A estrutura mecânica da eletrônica embarcada deve atender aos seguintes
+requisitos de projeto: imersível 100m em água, resistente à vibração, resistente a choque
 mecânico e acoplamento simples à viga pescadora, isto é, sem causar alterações à
 estrutura. A solução rápida e simples adotada foi a montagem e adaptação do
-antigo tubo do projeto LUMA, ROV com expedição Antártida. FIGURA
+antigo tubo do projeto LUMA, ROV com expedição Antártida~\ref{fig:tubo}. 
+
+\begin{figure}[H]
+ \centering
+ \includegraphics[width=1\columnwidth]{indutivo/figs/tubo.jpg}
+ \caption{Tubo da eletrônica embarcada}
+ \label{fig:tubo}
+ \end{figure}
 
 A placa eletrônica customizada é responsável pela distribuição e conversão da
 potência, comunicação e conversão do meio físico entre dispositivos através de
@@ -54,9 +61,9 @@ externa) e sinal. O sinal é uma saída do tipo relé, ou seja, $24V$ quando há
 proximidade faceada com metal. A saída, então $24V$, passa por um conversor de
 tensão, o que garante uma queda para $3.3V$. Um dispositivo GPIO/Ethernet
 converte a saída de nível lógico TTL para Ethernet. Vale ressaltar que a
-conexão da placa ocorre com os conectores internos do tubo, estrutura mecânica, e não diretamente com o cabo do sensor indutivo. A lógica da montagem é: sensor indutivo - Cabo
-M12 - Emenda cabo externo do tubo - Conector tubo - Cabo interno do tubo -
-Conector placa - Placa. FIGURA
+conexão da placa ocorre com os conectores internos do tubo, estrutura mecânica,
+e não diretamente com o cabo do sensor indutivo. A lógica da montagem é: sensor
+indutivo - Cabo M12 - Emenda cabo externo do tubo - Conector tubo - Cabo interno do tubo - Conector placa - Placa.
 
 O computador com sistema operacional Ubuntu recebe os dados via Ethernet pelo
 Modem. O sistema para obtenção dos dados foi desenvolvido em ROCK.
