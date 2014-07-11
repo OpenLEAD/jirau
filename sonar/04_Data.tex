@@ -2,14 +2,46 @@
 %%******************************************************************************
 %% SECTION - Data 
 
-Numerical data obtained from your procedure usually is presented as a table. Data encompasses what you recorded when you conducted the experiment. It's just the facts, not any interpretation of what they mean.
+%Numerical data obtained from your procedure usually is presented as a table.
+% Data encompasses what you recorded when you conducted the experiment. It's just the facts, not any interpretation of what they mean.
 
 %%******************************************************************************
 
 \subsection{Dados}
 \label{dados}
 
+Os dados adquiridos consistem em um conjunto de ecos recebidos pelo sonar
+contendo, cada um, uma informação de intensidade e direção. A partir das
+características do sonar utilizado no teste, cada eco recebido é mapeado em um
+\textit{Sonar Beam} leque que é subdividos em comprimentos fixos, denomindados
+\textit{bins}. A figura %TODO figura 
+ilustra a visualização de um sonar beam.
 
+A partir da combinação de todos os sonar beams aquisitados em uma bateria de
+testes é possível gerar uma visualização primitiva do ambiente. Tanto no sistema
+Windows, quanto no Ubuntu, só é possível gerar imagens contendo informações em
+um único plano. Mesmo no Ubuntu, onde já se se extrapola a visualização para o
+espaço tridimensional, só é possível extrair conteúdo em 2D, devido a ausência
+de uma unidade Pan-Tilt para a movimentação do sonar e a mudança de sua direção.
+
+Foram aquisitados os seguintes conjuntos de dados:
+
+\begin{itemize}
+  \item Ângulo do sonar = 90
+  \begin{itemize}
+    \item Superfície
+    \item 12 metros
+    \item 6 metros
+    \item Subida
+  \end{itemize}
+  \item Angulo do sonar = 180
+  \begin{itemize}
+    \item Superfície
+    \item 12 metros
+    \item 6 metros
+    \item Subida
+  \end{itemize}
+\end{itemize}
 
 
   
